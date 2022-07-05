@@ -7,7 +7,7 @@ CORS(app)
 
 
 # configuro la base de datos, con el nombre el usuario y la clave
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://sql10504080:HVdEPCaqcB@sql10.freemysqlhosting.net/sql10504080'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/flaskmysql'
 
 
 #                                               user:clave@localhost/nombreBaseDatos
