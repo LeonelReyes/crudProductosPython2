@@ -9,7 +9,7 @@ function guardar() {
         precio: p,
         stock: s
     }
-    let url = "sql10.freemysqlhosting.net:3306/productos"
+    let url = "http://localhost:5000/productos"
     var options = {
         body: JSON.stringify(producto),
         method: 'POST',
