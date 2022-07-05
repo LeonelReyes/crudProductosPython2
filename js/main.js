@@ -7,7 +7,7 @@ if (document.getElementById("app")) {
             loading: true
         },
         created() {
-            var url = 'https://crud-python-leonel-reyes.netlify.app:5000/productos'
+            var url = 'sql10.freemysqlhosting.net:3306/productos'
             this.fetchData(url)
         },
         methods: {
@@ -23,7 +23,7 @@ if (document.getElementById("app")) {
                     })
             },
             eliminar(producto) {
-                const url = 'https://crud-python-leonel-reyes.netlify.app:5000/producto/' + producto;
+                const url = 'sql10.freemysqlhosting.net:3306/producto/' + producto;
                 var options = {
                     method: 'DELETE',
                 }

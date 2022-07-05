@@ -20,7 +20,7 @@ function modificar() {
         precio: p,
         stock: s
     }
-    let url = "https://crud-python-leonel-reyes.netlify.app:5000/productos/"+id
+    let url = "sql10.freemysqlhosting.net:3306/productos/"+id
     var options = {
         body: JSON.stringify(producto),
         method: 'PUT',
