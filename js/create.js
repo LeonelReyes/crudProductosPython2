@@ -9,7 +9,7 @@ function guardar() {
         precio: p,
         stock: s
     }
-    let url = "http://localhost:5000/productos"
+    let url = "https://crud-python-leonel-reyes.netlify.app:5000/productos"
     var options = {
         body: JSON.stringify(producto),
         method: 'POST',
