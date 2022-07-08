@@ -10,6 +10,15 @@ CORS(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://flaskmysqlonline:Mkomkomko@db4free.net/flaskmysqlonline'
 
 
+
+
+
+
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://flaskmysqlonline:Mkomkomko@db4free.net/flaskmysqlonline'
+
+
+
 #                                               user:clave@localhost/nombreBaseDatos
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
